@@ -14,8 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-#/*.dll
-#/*.dll
+Musicus/*.dll
 
 # Fortran module files
 *.mod
@@ -28,8 +27,7 @@
 *.lib
 
 # Executables
-#/*.exe
-#/*.exe
+Musicus/*.exe
 *.out
 *.app
 
@@ -38,4 +36,11 @@
 *.depend
 *.layout
 
+# Resources
+Musicus/*.txt
+*.ogg
+*.ttf
+*.bmp
+*.png
+*.xslx
 
