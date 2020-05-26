@@ -1,0 +1,11 @@
+0
+
+=== HOW TO CHANGE LANGUAGE ===
+Just change the number in the head of this file.
+	0 => English
+	1 => French
+	
+=== COMMENT CHANGER LA LANGUE ===
+Il suffit de changer le chiffre en haut du fichier.
+	0 => Anglais
+	1 => Français

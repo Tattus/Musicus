@@ -37,10 +37,8 @@ Musicus/*.exe
 *.layout
 
 # Resources
-Musicus/*.txt
 Musicus/Dev/*.txt
 Musicus/Documentations/*.txt
-Musicus/Dev/*.txt
 *.ogg
 *.ttf
 *.bmp
