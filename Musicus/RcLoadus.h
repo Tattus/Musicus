@@ -12,7 +12,7 @@
 */
 /* Paramétrage */
 // Commenter la ligne suivante si pas d'utilisation de FMOD_STUDIO_LOWLEVEL
-#define DEF_RCFMODSTUDIOLOW
+#define DEF_RCFMODCORE
 
 // Commenter la ligne suivante si pas d'utilisation de SDL2
 #define DEF_RCSDL2
@@ -60,11 +60,11 @@ void closeRcFile(char *a_pResName); // Fonction qui supprime le fichier temporai
 
 // Particularitées selon le paramétrage :
 /* FMOD Studio Low activé */
-#ifdef DEF_RCFMODSTUDIOLOW
-    #include <FMODStudioLowLevel_1_09_04/fmod.h>
+#ifdef DEF_RCFMODCORE
+    #include <FMOD/fmod.h>
     FMOD_RESULT FMOD_System_CreateRcSound(FMOD_SYSTEM *a_system, const char *a_rcname, FMOD_MODE a_mode, FMOD_CREATESOUNDEXINFO *a_finfo, FMOD_SOUND **a_ppsound); // Charge un son provenant du conteneur de ressources via FMOD Studio Low. Elle renvoie FMOD_RESULT.
     FMOD_RESULT FMOD_System_CreateRcSoundNoDel(FMOD_SYSTEM *a_system, const char *a_rcname, FMOD_MODE a_mode, FMOD_CREATESOUNDEXINFO *a_finfo, FMOD_SOUND **a_ppsound); // Charge un son provenant du conteneur de ressources via FMOD Studio Low. Elle renvoie FMOD_RESULT. La fonction ne supprime pas le fichier temporaire créé pour la lecture.
-#endif // DEF_RCFMODSTUDIOLOW
+#endif // DEF_RCFMODCORE
 
 /* SDL2_TTF activé */
 #ifdef DEF_RCSDL2TTF
