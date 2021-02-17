@@ -25,7 +25,7 @@
 #ifdef LINUX
 	#include <sys/stat.h>
 #endif
-#include <FMODStudioLowLevel_1_09_04/fmod.h>
+#include <FMOD/fmod.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_messagebox.h>
 #include <SDL2/SDL_image.h>

@@ -64,7 +64,7 @@ char *getRcFile(char *a_pResName, int *a_pnSize)
 	return ptrdata;
 }
 
-#ifdef DEF_RCFMODSTUDIOLOW
+#ifdef DEF_RCFMODCORE
 FMOD_RESULT FMOD_System_CreateRcSound(FMOD_SYSTEM *a_system, const char *a_rcname, FMOD_MODE a_mode, FMOD_CREATESOUNDEXINFO *a_finfo, FMOD_SOUND **a_ppsound)
 {
 	char *tempFileName;
@@ -93,7 +93,7 @@ FMOD_RESULT FMOD_System_CreateRcSoundNoDel(FMOD_SYSTEM *a_system, const char *a_
     remove(tempFileName);
     return result;
 }
-#endif //DEF_RCFMODSTUDIOLOW
+#endif //DEF_RCFMODCORE
 
 #ifdef DEF_RCSDL2TTF
 TTF_Font *TTF_OpenRcFontNoDel(const char *a_FontName, int ptsize)
