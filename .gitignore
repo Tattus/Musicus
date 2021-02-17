@@ -30,6 +30,7 @@ Musicus/*.dll
 Musicus/*.exe
 *.out
 *.app
+*.exe
 
 # CodeBlocks
 *.cbp
@@ -39,6 +40,7 @@ Musicus/*.exe
 # Resources
 Musicus/Dev/*.txt
 Musicus/Documentations/*.txt
+Musicus/obj/Release/*.res
 *.ogg
 *.ttf
 *.bmp
