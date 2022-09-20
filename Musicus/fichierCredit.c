@@ -1,11 +1,5 @@
 /* fichierCredit.c
    ---------------
-
-   Créé par : Tattus
-   le : 15/04/2015
-
-   Modifié le : 16/04/2017
-   ---------------
    Fonctions de créations des crédits.
 
 */
@@ -73,7 +67,7 @@ void creditsFR(void)
         fprintf(fichier, "_ PNG (via SDL Image) sous licence libpng\n");
         fprintf(fichier, "_ freetype (via SDL TTF) sous licence FreeType\n");
         fprintf(fichier, "copyright © 2013 The FreeType Project (www.freetype.org).  All rights reserved.\n");
-        fprintf(fichier, "_ FMOD Studio low level\n");
+        fprintf(fichier, "_ FMOD 2.02.08\n");
         fprintf(fichier, "www.fmod.org/sales/\n");
         fprintf(fichier, "FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 2012-2016.\n\n");
         fprintf(fichier, "--------------------\n");
@@ -118,7 +112,7 @@ void creditsEN(void)
         fprintf(fichier, "_ PNG (via SDL Image) under libpng license\n");
         fprintf(fichier, "_ freetype (via SDL TTF) under FreeType licence\n");
         fprintf(fichier, "copyright © 2013 The FreeType Project (www.freetype.org).  All rights reserved.\n");
-        fprintf(fichier, "_ FMOD Studio low level\n");
+        fprintf(fichier, "_ FMOD 2.02.08\n");
         fprintf(fichier, "www.fmod.org/sales/\n");
         fprintf(fichier, "FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 2012-2016.\n\n");
         fprintf(fichier, "--------------------\n");

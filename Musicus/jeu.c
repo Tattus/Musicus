@@ -1,11 +1,5 @@
 /* jeu.c
    -----
-
-   Créé par : Tattus
-   le : 02/08/2016
-
-   Modifié le : 06/08/2016
-   ----------
    Fonctions du jeu.
 
 */

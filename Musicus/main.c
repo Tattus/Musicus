@@ -1,11 +1,5 @@
 /* main.c
    ------
-
-   Créé par : Tattus
-   le : 06/04/2015
-
-   Modifié le : 16/04/2015
-   ------
    Fonction principale.
 
 */

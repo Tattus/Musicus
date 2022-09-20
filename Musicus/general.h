@@ -1,11 +1,5 @@
 /* general.h
    ---------
-
-   Créé par : Tattus
-   le : 10/04/2015
-
-   Modifié le : 09/08/2016
-   ---------
    Structures, Constantes de préprocesseur et prototypes des fonctions du projet.
 
 */
@@ -40,7 +34,7 @@
 #define MESSAGE_ERREUR_ENG "The software will close.\nFor more details, check the failure file in the folder Error_Report"
 #define TITRE_MSG_ERREUR_FRA "Erreur !"
 #define MESSAGE_ERREUR_FRA "Le programme va fermer.\nPour plus de détail, consultez le fichier d'erreur dans le dossier Error_Report"
-#define VERSION "1.1"
+#define VERSION "1.2"
 #define FALSE 0
 #define TRUE 1
 #define XRES 1400

@@ -1,0 +1,47 @@
+
+*** CREDITS ***
+
+*** Musicus v1.1 ***
+
+--------------------
+
+Development :
+
+_ Tattus 
+
+
+Graphics :
+
+_ Tattus 
+
+
+Sounds :
+
+_ Tattus 
+
+--------------------
+
+Fonts :
+
+_ LiberationMono-Bold.ttf (https://fedorahosted.org/liberation-fonts/) under "SIL Open Font License" license.
+
+--------------------
+
+Libraries used :
+
+_ SDL 2.0 under zlib license
+_ SDL TTF under zlib license
+_ zlib (via SDL TTF) under zlib license
+_ SDL image under zlib license
+_ PNG (via SDL Image) under libpng license
+_ freetype (via SDL TTF) under FreeType licence
+copyright © 2013 The FreeType Project (www.freetype.org).  All rights reserved.
+_ FMOD 2.02.08
+www.fmod.org/sales/
+FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 2012-2016.
+
+--------------------
+
+Redistribution :
+
+Free redistribution without modifications of Musicus v1.1 is allowed.

@@ -1,11 +1,5 @@
 /* RcLoadus.h
    ----------
-
-   Créé par : Tattus
-   le : 13/04/2015
-
-   Modifié le : 14/04/2015
-   ----------
    Prototypes et structures des fonction de RcLoadus.c
    Peut nécessiter des bibliothèques tierces : SDL2, SDL2_images, SDL2_TTF, FMOD_STUDIO_LOWLEVEL.
    SDL2_images et SDL2_TTF nécéssite obligatoirement SDL2.

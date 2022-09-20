@@ -1,11 +1,5 @@
 /* lecture.h
    ---------
-
-   Créé par : Tattus
-   le : 11/03/2015
-
-   Modifié le : 14/04/2015
-   ---------
    Prototypes des fonctions de lecture.c
 
 */
