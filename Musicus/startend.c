@@ -1,11 +1,5 @@
 /* startend.c
    ----------
-
-   Créé par : Tattus
-   le : 10/04/2015
-
-   Modifié le : 16/04/2017
-   ----------
    Fonction d'initialisations et de fermetures.
 
 */
@@ -85,7 +79,7 @@ void initialisationSDL(Base *contexte)
 
 void initialisationFMOD(Base *contexte)
 {
-    contexte->verifFMOD = FMOD_System_Create(&contexte->system);
+    contexte->verifFMOD = FMOD_System_Create(&contexte->system, FMOD_VERSION);
     if (contexte->verifFMOD != FMOD_OK)
     {
         switch(contexte->langue)

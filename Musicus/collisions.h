@@ -1,11 +1,5 @@
 /* collisions.h
    ------------
-
-   Créé par Tattus
-   le : 21/03/2015
-
-   Modifié le : 05/04/2015
-   ------------
    Prototypes et structures des fonction de collisions.h
    Nécessite la SDL 2.
 */

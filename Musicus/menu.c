@@ -1,11 +1,5 @@
 /* menu.c
    ------
-
-   Créé par : Tattus
-   le : 26/07/2016
-
-   Modifié le : 03/08/2016
-   ----------
    Fonctions des menus.
 
 */

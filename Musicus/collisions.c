@@ -1,11 +1,5 @@
 /* collisions.c
    ------------
-
-   Créé par Tattus
-   le : 21/03/2015
-
-   Modifié le : 05/04/2015
-   ------------
    Fonctions qui gèrent les collisions.
    Nécessite la SDL 2.
 */

@@ -1,13 +1,7 @@
 /* RcLoadus.c
    ----------
-
-   Créé par : Tattus
-   le : 13/04/2015
-
-   Modifié le : 30/04/2015
-   ----------
    Fonctions qui gère le chargement des ressources.
-   Peut nécessiter des bibliothèques tierces : SDL2, SDL2_images, SDL_TTF, FMOD_STUDIO_LOWLEVEL
+   Peut nécessiter des bibliothèques tierces : SDL2, SDL2_images, SDL_TTF, FMOD
 */
 #include <stdlib.h>
 #include "RcLoadus.h"

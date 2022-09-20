@@ -1,11 +1,5 @@
 /* lecture.c
    ---------
-
-   Créé par : Tattus
-   le : 11/03/2015
-
-   Modifié le : 14/04/2015
-   ---------
    Fonctions de lecture sécurisée de chaînes de caractères, nombres entiers et nombres décimaux saisis par l'utilisateur oû luent dans un fichier.
 
 */
